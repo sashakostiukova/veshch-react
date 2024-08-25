@@ -1,0 +1,12 @@
+.page {
+  background: #FFFFFF;
+  max-width: 1440px;
+  min-width: 320px;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  font-family: KiwiMaru-Light, serif;
+  -webkit-font-smoothing: antialiased;
+}
