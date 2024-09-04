@@ -1,19 +1,25 @@
 .header {
-
-  width: 100%;
-
-}
-
-.header__topbar {
+  /* width: 100%; */
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  /* width: 100%; */
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
   padding: 30px;
 }
 
+/* .header__topbar {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  padding: 30px;
+} */
+
 .header__logo {
-  background-image: url(../../images/logo.svg);
   width: 100px;
   height: 27px;
 }
@@ -23,14 +29,23 @@
   height: 20px;
   border: none;
   background: transparent url(../../images/menu-button.svg) no-repeat center / contain;
+
+  /* position: fixed;
+  top: 30px;
+  right: 30px; */
 }
 
-.header__figure {
+.header__menu-button:hover {
+  cursor: pointer;
+}
+
+/* .header__figure {
   display: flex;
   align-items: center;
+  width: 100%;
   padding: 153px 0 140px;
   margin: 0;
-  /* эллипсы в виде градиента */
+
   background: 
     url(../../images/background-images/header-bg-line.svg) no-repeat top 119px left 466px/ 445px,
     radial-gradient(211px 111px at top 120px left 546px, #4783E4 -100%, transparent 100%),
@@ -41,4 +56,4 @@
   width: 361px;
   height: 312px;
   margin: 0 auto;
-}
+} */

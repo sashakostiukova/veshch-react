@@ -1,5 +1,7 @@
 import React from 'react';
-import './LargeNavigation.css'
+import './LargeNavigation.css';
+import interiorIconPath from '../../images/interior-icon.svg';
+import accessoriesIconPath from '../../images/accessories-icon.svg';
 
 export default function LargeNavigation() {
   return (
@@ -7,12 +9,12 @@ export default function LargeNavigation() {
       <nav className="large-navigation__links">
         <ul className="large-navigation__links-list">
           <li className="large-navigation__list-item">
-            <img src="./images/interior-icon.svg" alt="иконка инстаграм" className="large-navigation__icon" />
-            <a href="#" target="_blank" rel="noopener noreferrer" className="link">интерьер</a>
+            <img src={interiorIconPath} alt="иконка инстаграм" className="large-navigation__icon" />
+            <a href="#" className="link">интерьер</a>
           </li>
           <li className="large-navigation__list-item">
-            <img src="./images/accessories-icon.svg" alt="иконка телеграм" className="large-navigation__icon" />
-            <a href="#" target="_blank" rel="noopener noreferrer" className="link">украшения</a>
+            <img src={accessoriesIconPath} alt="иконка телеграм" className="large-navigation__icon" />
+            <a href="#" className="link">украшения</a>
           </li>
         </ul>
       </nav>

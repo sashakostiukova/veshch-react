@@ -1,0 +1,18 @@
+.hero__figure {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 153px 0 140px;
+  margin: 88px 0 0;
+  /* эллипсы в виде градиента */
+  background: 
+    url(../../images/background-images/hero-bg-line.svg) no-repeat top 119px left 466px/ 445px,
+    radial-gradient(211px 111px at top 120px left 546px, #4783E4 -100%, transparent 100%),
+    radial-gradient(211px 111px at top 219px left 473px, #FDE598, transparent);
+}
+
+.hero__image {
+  width: 361px;
+  height: 312px;
+  margin: 0 auto;
+}

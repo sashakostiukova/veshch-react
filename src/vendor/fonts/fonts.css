@@ -9,13 +9,12 @@
     url(./KiwiMaru-Light.woff) format('woff');
 }
 
-/* @font-face {
+@font-face {
   font-display: swap;
   font-family: Sansation-Light;
   font-style: normal;
   font-weight: 300;
   src: 
     local('Sansation-Light'),
-    url(./sansation_light.woff2) format('font-woff2'),
-    url(./sansation_light.woff) format('font-woff');
-} */
+    url('Sansation-Light.woff') format('woff');
+}

@@ -1,24 +1,35 @@
 import React from 'react';
+import { useLocation } from 'react-router';
 import './Footer.css';
+import instagramIconPath from '../../images/instagram-icon.svg';
+import telegramIconPath from '../../images/telegram-icon.svg';
 
 export default function Footer() {
+
+  const location = useLocation();
+
   return (
     <footer className="footer">
+      {location.pathname === "/" &&
+      
       <div className="footer__heding-wrapper">
         <h2 className="footer__heading">контакты</h2>
       </div>
+      }
       <nav className="footer__links">
-        <ul className="footer__links-list">
+        <ul id="contacts" className="footer__links-list">
           <li className="footer__list-item">
-            <img src="./images/instagram-icon.svg" alt="иконка инстаграм" className="footer__social-icon" />
-            <a href="#" target="_blank" rel="noopener noreferrer" className="link">veshch_shch</a>
+            <img src={instagramIconPath} alt="иконка инстаграм" className="footer__social-icon" />
+            <a href="https://www.instagram.com/veshch_shch" target="_blank" rel="noopener noreferrer" className="link">veshch_shch</a>
           </li>
           <li className="footer__list-item">
-            <img src="./images/telegram-icon.svg" alt="иконка телеграм" className="footer__social-icon" />
-            <a href="#" target="_blank" rel="noopener noreferrer" className="link">julia_shchu</a>
+            <img src={telegramIconPath} alt="иконка телеграм" className="footer__social-icon" />
+            <a href="https://t.me/julia_shchu" target="_blank" rel="noopener noreferrer" className="link">julia_shchu</a>
           </li>
         </ul>
       </nav>
+
+      <div style={{ marginTop: '1000px' }}></div>
     </footer>
   )
 }
