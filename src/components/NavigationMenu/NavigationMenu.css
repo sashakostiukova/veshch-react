@@ -5,6 +5,7 @@
 .navigation-menu_opened {
   display: block;
   position: fixed;
+  z-index: 3;
   top: 88px;
   left: 0;
   right: 0;

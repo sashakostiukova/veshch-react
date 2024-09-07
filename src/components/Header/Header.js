@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import headerLogoPath from '../../images/logo.svg';
+import headerLogo from '../../images/logo.svg';
 import NavigationMenu from '../NavigationMenu/NavigationMenu';
 import './Header.css';
 
@@ -14,7 +14,7 @@ export default function Header({ isMenuOpen, toggleMenu }) {
     <>
     <header className="header">
       <Link to="/" className="header__link">
-        <img className="header__logo" src={headerLogoPath} alt="логотип сайта"/>
+        <img className="header__logo" src={headerLogo} alt="логотип сайта"/>
       </Link>
       <button className="header__menu-button" onClick={onClick}/>
     </header>

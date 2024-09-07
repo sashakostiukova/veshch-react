@@ -1,11 +1,13 @@
 .page {
   background: #FFFFFF;
+  color: #545F71;
   max-width: 1440px;
   min-width: 320px;
   width: 100%;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  align-items: center;
   margin: 0 auto;
   font-family: KiwiMaru-Light, serif;
   -webkit-font-smoothing: antialiased;

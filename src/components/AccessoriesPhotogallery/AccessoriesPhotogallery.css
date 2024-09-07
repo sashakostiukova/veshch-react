@@ -1,0 +1,34 @@
+.accessories-photogallery {
+  max-width: 100%;
+}
+
+.accessories-photogallery__card-list {
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: 1fr;
+  gap: 60px;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.accessories-photogallery__card {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 30px;
+}
+
+.accessories-photogallery__card-title {
+  font-family: Sansation-Light, sans-serif;
+  font-size: 22px;
+  line-height: 43px;
+  margin: 0;
+  text-align: center;
+}
+
+.accessories-photogallery__photo {
+  width: 100%;
+  object-fit: cover;
+}

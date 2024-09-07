@@ -1,0 +1,95 @@
+.interior-photogallery {
+  /* display: flex;
+  flex-direction: column;
+  gap: 200px; */
+  max-width: 1000px;
+}
+
+.interior-photogallery__card-list {
+  display: flex;
+  flex-direction: column;
+  gap: 200px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.interior-photogallery__card {
+  display: flex;
+  gap: 50px;
+  position: relative;
+  z-index: 1;
+}
+
+/* эллипсы на фоне */
+.interior-photogallery__card:first-child::before{
+  position: absolute;
+  content: "";
+  background: url(../../images/background-images/interior-ellipses-bg.png) no-repeat center / 348px auto;
+  inset: 368px -35px -69px 715px;
+}
+
+/* стрелка после первой карточки */
+.interior-photogallery__card:first-child::after {
+  position: absolute;
+  content: "";
+  background: url(../../images/arrow.svg) no-repeat center / 17px 96px;
+  inset: 110% 43% -33% 45%;
+}
+
+.interior-photogallery__card:nth-child(2):after {
+  position: absolute;
+  content: "";
+  background: url(../../images/background-images/interior-gradient-and-swirl-bg.png) no-repeat center / contain;
+  width: 1861px;
+  height: 1145px;
+  top: -25%;
+  left: -48%;
+  z-index: -1;
+}
+
+.interior-photogallery__card:nth-child(3):after {
+  position: absolute;
+  content: "";
+  background: url(../../images/background-images/interior-lines-bg.png) no-repeat center / contain;
+  width: 1017px;
+  height: 1037px;
+  top: -225px;
+  left: 296px;
+  z-index: -1;
+}
+
+.interior-photogallery__photo {
+  width: 50%;
+  aspect-ratio: 1;
+}
+
+.interior-photogallery__photo_position_right {
+  order: 2;
+}
+
+.interior-photogallery__discription {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  gap: 45px;
+  font-family: Sansation-Light, sans-serif;
+}
+
+.interior-photogallery__discription_align_right {
+  text-align: right;
+}
+
+.interior-photogallery__discription-title {
+  font-size: 32px;
+  line-height: 43px;
+  font-weight: 300;
+  margin: 0;
+}
+
+.interior-photogallery__discription-text {
+  font-size: 22px;
+  line-height: 43px;
+  margin: 0;
+  white-space: pre-wrap;
+}

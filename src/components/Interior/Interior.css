@@ -1,0 +1,8 @@
+.interior {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 200px;
+  padding-bottom: 125px;
+  width: 100%;
+}
