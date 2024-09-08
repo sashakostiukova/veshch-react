@@ -4,7 +4,7 @@
   align-items: center;
   padding-top: 203px;
   width: 100%;
-  /* background: url(../../images/background-images/about-interior-bg.png) no-repeat center bottom -28px/ 2474px auto; */
+  background: url(../../images/background-images/about-interior-bg.png) no-repeat center bottom -28px/ 2474px auto;
 }
 
 .about-interior__text-wrapper {
@@ -18,12 +18,12 @@
 }
 
 /* фон секции */
-.about-interior__text-wrapper::before {
+/* .about-interior__text-wrapper::before {
   position: absolute;
   content: "";
   background: url(../../images/background-images/about-interior-bg.png) no-repeat center / 2474px auto;
   inset: -20% -220% 0;
-}
+} */
 
 .about-interior__text {
   font-family: Sansation-Light, sans-serif;

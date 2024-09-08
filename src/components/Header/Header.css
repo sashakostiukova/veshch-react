@@ -1,5 +1,4 @@
 .header {
-  /* width: 100%; */
   display: flex;
   justify-content: space-between;
   position: fixed;
@@ -7,17 +6,25 @@
   right: 0;
   left: 0;
   padding: 30px;
+  z-index: 2;
 }
 
-/* .header__topbar {
-  display: flex;
-  justify-content: space-between;
-  position: fixed;
-  top: 0;
-  right: 0;
-  left: 0;
-  padding: 30px;
-} */
+.header__link {
+  position: relative;
+}
+
+/* подложка под лого */
+.header__link::after {
+  position: absolute;
+  content: "";
+  width: 115%;
+  height: 42px;
+  background-color: #ffffff;
+  top: -9px;
+  left: -8px;
+  z-index: -1;
+  border-radius: 4px;
+}
 
 .header__logo {
   width: 100px;
@@ -25,35 +32,35 @@
 }
 
 .header__menu-button {
+  position: relative;
   width: 32px;
   height: 20px;
   border: none;
   background: transparent url(../../images/menu-button.svg) no-repeat center / contain;
-
-  /* position: fixed;
-  top: 30px;
-  right: 30px; */
 }
+
+/* подложка под кнопку меню */
+/* .header__menu-button::after {
+  position: absolute;
+  content: "";
+  width: 149%;
+  height: 42px;
+  background-color: #ffffff;
+  background: radial-gradient(blue, white);
+  top: -11px;
+  left: -8px;
+  z-index: -1;
+  border-radius: 4px;
+} */
 
 .header__menu-button:hover {
   cursor: pointer;
 }
 
-/* .header__figure {
-  display: flex;
-  align-items: center;
-  width: 100%;
-  padding: 153px 0 140px;
-  margin: 0;
-
-  background: 
-    url(../../images/background-images/header-bg-line.svg) no-repeat top 119px left 466px/ 445px,
-    radial-gradient(211px 111px at top 120px left 546px, #4783E4 -100%, transparent 100%),
-    radial-gradient(211px 111px at top 219px left 473px, #FDE598, transparent);
+.link-transition {
+  transition: opacity 0.5s ease;
 }
 
-.header__image {
-  width: 361px;
-  height: 312px;
-  margin: 0 auto;
-} */
+.link-transition:hover {
+  opacity: 0.6;
+}

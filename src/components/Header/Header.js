@@ -13,10 +13,10 @@ export default function Header({ isMenuOpen, toggleMenu }) {
   return (
     <>
     <header className="header">
-      <Link to="/" className="header__link">
+      <Link to="/" className="header__link link-transition">
         <img className="header__logo" src={headerLogo} alt="логотип сайта"/>
       </Link>
-      <button className="header__menu-button" onClick={onClick}/>
+      <button className="header__menu-button link-transition" onClick={onClick}/>
     </header>
     <NavigationMenu isOpen={isMenuOpen}/>
     </>

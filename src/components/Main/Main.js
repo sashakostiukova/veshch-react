@@ -11,13 +11,15 @@ export default function Main({ isNavigationMenuOpen, toggleNavigationMenu }) {
     <>
     <Header isMenuOpen={isNavigationMenuOpen} toggleMenu={toggleNavigationMenu}/>
 
-    <main className="content">
-      <Hero />
-      <Description />
-      <LargeNavigation />
-    </main>
+    <div className="main__bg-wrapper">
+      <main className="content">
+        <Hero />
+        <Description />
+        <LargeNavigation />
+      </main>
 
-    <Footer />
+      <Footer />
+    </div>
     
     </>
   )

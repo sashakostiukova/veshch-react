@@ -19,12 +19,16 @@ export default function Footer() {
       <nav className="footer__links">
         <ul id="contacts" className="footer__links-list">
           <li className="footer__list-item">
-            <img src={instagramIcon} alt="иконка инстаграм" className="footer__social-icon" />
-            <a href="https://www.instagram.com/veshch_shch" target="_blank" rel="noopener noreferrer" className="link">veshch_shch</a>
+            <a href="https://www.instagram.com/veshch_shch" target="_blank" rel="noopener noreferrer" className="footer__link link-transition">
+              <img src={instagramIcon} alt="иконка инстаграм" className="footer__social-icon" />
+              veshch_shch
+            </a>
           </li>
           <li className="footer__list-item">
-            <img src={telegramIcon} alt="иконка телеграм" className="footer__social-icon" />
-            <a href="https://t.me/julia_shchu" target="_blank" rel="noopener noreferrer" className="link">julia_shchu</a>
+            <a href="https://t.me/julia_shchu" target="_blank" rel="noopener noreferrer" className="footer__link link-transition">
+              <img src={telegramIcon} alt="иконка телеграм" className="footer__social-icon" />
+              julia_shchu
+            </a>
           </li>
         </ul>
       </nav>

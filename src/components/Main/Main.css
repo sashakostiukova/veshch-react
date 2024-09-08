@@ -1,3 +1,8 @@
+.main__bg-wrapper {
+  width: 100%;
+  background: url(../../images/background-images/main-bg.png) no-repeat top 604px center / 1817px auto;
+}
+
 .content {
   width: 100%;
 }

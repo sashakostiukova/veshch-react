@@ -1,28 +1,43 @@
+/* @keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+} */
+
 .about-accessories {
-  position: relative;
-  width: 100%;
-  max-width: 588px;
-  /* display: flex;
+  display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 98px; */
-  /* height: 1295px; */
-  height: 642px;
-  padding-top: 737px;
-/* padding: 737px 8px 0; */
-  background: transparent url(../../images/background-images/accessories-description-bg.png) no-repeat top center / contain;
-
+  width: 100%;
+  background: url(../../images/background-images/about-accessories-top-bg.png) no-repeat top center / 2136px auto;
 }
 
-.about-accessories::after{
+.about-accessories__bg-container {
+  max-width: 588px;
+  padding: 737px 0 327px;
+  background: url(../../images/background-images/accessories-description-bg.png) no-repeat top center / 588px auto;
+  position: relative;
+}
+
+/* градиентная подложка под текст */
+.about-accessories__bg-container::after{
   content: '';
   position: absolute;
-  background-image: linear-gradient(to bottom, transparent, #ffffff 80%);
-  /* background-image: linear-gradient(to top, rgb(0 0 0 / 1), rgb(0 0 0 / 0.6) 45%, rgb(0 0 0 / 0) 60%, rgb(0 0 0 / 0) 100%); */
-  inset-block-start: 0;
-  inset-inline-start: 0;
-  inline-size: 100%;
-  block-size: 100%;
+  background-image: linear-gradient(to bottom, rgba(255 255 255 / 0) 50%, rgba(255 255 255 / 1) 70%);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.about-accessories__animation-container {
+  position: relative;
+  z-index: 1;
 }
 
 .about-accessories__text-wrapper {
@@ -30,17 +45,28 @@
   flex-direction: column;
   align-items: center;
   gap: 98px;
+  max-width: 588px;
+  /* opacity: 0; 
+  animation: fadeIn ease-in 1;
+  animation-fill-mode: forwards;
+  animation-duration: 2s;
 
-  /* position: sticky;
-  bottom: 100px;
-  top: 737px; */
+  animation: fadeIn ease-in 1 2s forwards; */
+}
+
+/* пунктирная стрелка */
+.about-accessories__text-wrapper::after {
+  content: '';
+  position: absolute;
+  background: transparent url(../../images/background-images/dashed-arrow.png) no-repeat bottom center / 16px auto;
+  top: 118%;
+  left: -1px;
+  right: 0;
+  bottom: -75%;
 }
 
 .about-accessories__text {
-  position: relative;
-  z-index: 2;
   font-family: Sansation-Light, sans-serif;
-  /* max-width: 547px; */
   font-size: 34px;
   line-height: 36px;
   text-transform: lowercase;
