@@ -1,4 +1,10 @@
-.interior {
+.interior-bg-wrapper {
+  width: 100%;
+  /* background: url(../../images/background-images/interior-bg.png) no-repeat bottom 75px center / 1400px; */
+  background: url(../../images/background-images/background-elements.png) no-repeat bottom 75px center / 1400px;
+}
+
+.interior-content {
   display: flex;
   flex-direction: column;
   align-items: center;

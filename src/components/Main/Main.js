@@ -11,8 +11,8 @@ export default function Main({ isNavigationMenuOpen, toggleNavigationMenu }) {
     <>
     <Header isMenuOpen={isNavigationMenuOpen} toggleMenu={toggleNavigationMenu}/>
 
-    <div className="main__bg-wrapper">
-      <main className="content">
+    <div className="main-bg-wrapper">
+      <main className="main-content">
         <Hero />
         <Description />
         <LargeNavigation />

@@ -1,5 +1,5 @@
 .large-navigation {
-  width: 100%;
+  width: 70%;
   max-width: 777px;
   padding: 40px;
   margin: 0 auto;
@@ -34,4 +34,26 @@
 
 .large-navigation__icon:hover {
   transform: scale(1.1);
+}
+
+@media screen and (max-width: 693px) {
+  
+  .large-navigation {
+    padding: 0;
+  }
+
+  .large-navigation__links-list {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 100px;
+  }
+
+  .large-navigation__link {
+    gap: 50px;
+  }
+  
+  .large-navigation__icon {
+    height: 200px;
+  }
+
 }

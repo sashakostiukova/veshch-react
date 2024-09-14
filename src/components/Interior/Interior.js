@@ -9,11 +9,13 @@ export default function Interior({ isNavigationMenuOpen, toggleNavigationMenu })
   return (
     <>
     <Header isMenuOpen={isNavigationMenuOpen} toggleMenu={toggleNavigationMenu}/>
-    <div className="interior">
-      <AboutInterior />
-      <InteriorPhotogallery />
+    <div className="interior-bg-wrapper">
+      <div className="interior-content">
+        <AboutInterior />
+        <InteriorPhotogallery />
+      </div>
+      <Footer />
     </div>
-    <Footer />
     </>
   )
 }

@@ -1,8 +1,17 @@
-.main__bg-wrapper {
+.main-bg-wrapper {
   width: 100%;
-  background: url(../../images/background-images/main-bg.png) no-repeat top 604px center / 1817px auto;
+  /* фон масштабируется */
+  background: url(../../images/background-images/main-bg-top.png) no-repeat top 38% center / contain,
+  url(../../images/background-images/main-bg-bottom.png) no-repeat bottom 94px center / 90%;
 }
 
-.content {
+.main-content {
   width: 100%;
+}
+
+@media screen and (max-width: 1430px) {
+
+  .main-bg-wrapper {
+    background: url(../../images/background-images/main-bg-top.png) no-repeat top 38% center / contain;
+  }
 }

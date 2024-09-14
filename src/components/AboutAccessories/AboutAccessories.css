@@ -14,7 +14,7 @@
   flex-direction: column;
   align-items: center;
   width: 100%;
-  background: url(../../images/background-images/about-accessories-top-bg.png) no-repeat top center / 2136px auto;
+  background: url(../../images/background-images/about-accessories-bg.png) no-repeat top 55px center / 1485px auto
 }
 
 .about-accessories__bg-container {
@@ -24,7 +24,7 @@
   position: relative;
 }
 
-/* градиентная подложка под текст */
+/* подложка под текст */
 .about-accessories__bg-container::after{
   content: '';
   position: absolute;

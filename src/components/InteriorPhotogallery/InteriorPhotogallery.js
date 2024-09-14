@@ -23,8 +23,8 @@ export default function InteriorPhotogallery() {
         </li>
 
         <li className="interior-photogallery__card">
-          <img className="interior-photogallery__photo interior-photogallery__photo_position_right" src={holder} alt=""></img>
-          <div className="interior-photogallery__discription interior-photogallery__discription_align_right">
+          <img className="interior-photogallery__photo" src={holder} alt=""></img>
+          <div className="interior-photogallery__discription">
             <h3 className="interior-photogallery__discription-title">
               Холдер “аркада”.
             </h3>
