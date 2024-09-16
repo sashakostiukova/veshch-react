@@ -36,6 +36,14 @@
   transform: scale(1.1);
 }
 
+.link-transition {
+  transition: opacity 0.5s ease;
+}
+
+.link-transition:hover {
+  opacity: 0.6;
+}
+
 @media screen and (max-width: 693px) {
   
   .large-navigation {

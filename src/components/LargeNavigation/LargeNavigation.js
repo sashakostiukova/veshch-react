@@ -10,21 +10,21 @@ export default function LargeNavigation() {
       <nav className="large-navigation__links">
         <ul className="large-navigation__links-list">
           <li className="large-navigation__list-item">
-          <Link className="large-navigation__link" to="/interior">
-            <img src={interiorIconPath} alt="иконка инстаграм" className="large-navigation__icon" />
-            интерьер
-          </Link>
-            {/* <img src={interiorIconPath} alt="иконка инстаграм" className="large-navigation__icon" />
-            <a href="#" className="link">интерьер</a> */}
+            <Link className="large-navigation__link" to="/interior">
+              <img src={interiorIconPath} alt="иконка инстаграм" className="large-navigation__icon" />
+              <span className="link-transition">
+                интерьер
+              </span>
+            </Link>
           </li>
 
           <li className="large-navigation__list-item">
             <Link className="large-navigation__link" to="/accessories">
               <img src={accessoriesIconPath} alt="иконка телеграм" className="large-navigation__icon" />
-              украшения
+              <span className="link-transition">
+                украшения
+              </span>
             </Link>
-            {/* <img src={accessoriesIconPath} alt="иконка телеграм" className="large-navigation__icon" />
-            <a href="#" className="link">украшения</a> */}
           </li>
 
         </ul>

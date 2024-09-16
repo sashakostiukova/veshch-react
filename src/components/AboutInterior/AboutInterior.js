@@ -3,7 +3,7 @@ import './AboutInterior.css';
 
 export default function AboutInterior() {
   return (
-    <section className="about-interior">
+    <section className="about-interior"  id="about-interior">
       <div className="about-interior__text-wrapper">
         <p className="about-interior__text">
           Интерьерная керамика “вещь” - это {"\n"}

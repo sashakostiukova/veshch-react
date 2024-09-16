@@ -1,3 +1,14 @@
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    /* transform: translateY(100px); */
+  }
+  100% {
+    opacity: 1;
+    /* transform: translateY(0); */
+  }
+}
+ 
 .footer {
   width: 100%;
   display: flex;
@@ -5,12 +16,12 @@
   align-items: center;
   gap: 40px;
   padding: 76px 0;
+  position: relative;
 }
 
 .footer__heding-wrapper {
   height: 486px;
   width: 100%;
-  /* max-width: 996px; */
   background: url(../../images/background-images/contacts-background.png) no-repeat center / 1000px auto;
   display: flex;
   flex-direction: column;
@@ -82,6 +93,41 @@
 
 .link-transition:hover {
   opacity: 0.6;
+}
+
+.up-button {
+  position: absolute;
+  width: 17px;
+  height: 54px;
+  bottom: 100px;
+  right: 180px;
+  z-index: 1;
+  opacity: 0;
+  animation: fadeIn ease-in 1s 2s forwards;
+}
+
+/* подложка под стрелку */
+.up-button::after {
+  position: absolute;
+  content: "";
+  background: radial-gradient(60px 100px, rgba(253 229 152 / 1), rgba(253 229 152 / 0)) center;
+  inset: -65px -50px -65px -50px;
+  z-index: -1;
+  transition: transform 1s ease;
+  transform: scale(0.7);
+}
+
+.up-button:hover::after{
+  transform: scale(1);
+}
+
+.up-button__arrow {
+  transition: opacity 1s ease;
+  opacity: 0.6;
+}
+
+.up-button__arrow:hover {
+  opacity: 1;
 }
 
 @media screen and (max-width: 1130px) {
