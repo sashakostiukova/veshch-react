@@ -4,33 +4,33 @@ import { NavLink } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
 import './NavigationMenu.css';
 
-export default function NavigationMenu({isOpen}) {
+export default function NavigationMenu({ isOpen, closeMenu}) {
 
   const location = useLocation();
 
-  // React.useEffect(() => {
-  //   if (!isOpen) return;
+  React.useEffect(() => {
+    if (!isOpen) return;
 
-  //   const handleOverlay = (event) => {
-  //     if (event.target.classList.contains("vertical-navigation_opened")) {
-  //       closeSidebar();
-  //     }
-  //   };
+    const handleOverlay = (event) => {
+      if (!event.target.closest(".navigation-menu_opened") && !event.target.closest(".header__menu-button")) {
+        closeMenu();
+      }
+    };
 
-  //   const handleEscape = (e) => {
-  //     if (e.key === "Escape") {
-  //       closeSidebar();
-  //     }
-  //   };
+    const handleEscape = (e) => {
+      if (e.key === "Escape") {
+        closeMenu();
+      }
+    };
 
-  //   document.addEventListener("keydown", handleEscape);
-  //   document.addEventListener("mousedown", handleOverlay);
+    document.addEventListener("keydown", handleEscape);
+    document.addEventListener("mousedown", handleOverlay);
 
-  //   return () => {
-  //     document.removeEventListener("keydown", handleEscape);
-  //     document.removeEventListener("mousedown", handleOverlay);
-  //   };
-  // }, [isOpen, closeSidebar]);
+    return () => {
+      document.removeEventListener("keydown", handleEscape);
+      document.removeEventListener("mousedown", handleOverlay);
+    };
+  }, [isOpen, closeMenu]);
 
   return (
     <div className={`navigation-menu ${isOpen && "navigation-menu_opened"}`}>

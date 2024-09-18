@@ -1,11 +1,11 @@
 .accessories-photogallery {
-  max-width: 1000px;
-  width: 100%;
-  margin: 0 30px;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 30px;
 }
 
 .accessories-photogallery__card-list {
-  max-width: 100%;
+  max-width: 1000px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-auto-rows: 1fr;
@@ -33,4 +33,20 @@
 .accessories-photogallery__photo {
   width: 100%;
   object-fit: cover;
+}
+
+@media screen and (max-width: 850px) {
+  
+  .accessories-photogallery {
+    padding: 0;
+  }
+
+  .accessories-photogallery__card-list {
+    grid-template-columns: 1fr;
+  }
+
+  .accessories-photogallery__photo {
+    max-width: 588px;
+  }
+
 }

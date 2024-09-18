@@ -31,7 +31,7 @@
 .interior-photogallery__card:first-child::before{
   position: absolute;
   content: "";
-  background: url(../../images/background-images/interior-ellipses-bg.png) no-repeat center / 348px auto;
+  background: url(../../images/background-images/interior/interior-ellipses-bg.png) no-repeat center / 348px auto;
   inset: 368px -35px -69px 715px;
 }
 
@@ -44,16 +44,6 @@
     radial-gradient(45% 40%, rgba(253 229 152 / 1), rgba(253 229 152 / 0)) center top 7px;
     inset: 112% 30% -330px 30%;
 }
-
-
-/* подложка под текст второй карточки */
-/* .interior-photogallery__card:nth-child(2):after {
-  position: absolute;
-  content: "";
-  background: radial-gradient(60% 50%, rgba(255 255 255 / 1) 20% 35%, rgba(255 255 255 / 0)) center bottom;
-  inset: 0 0 -65px -65px;
-  z-index: -1;
-} */
 
 .interior-photogallery__photo {
   width: 50%;
@@ -81,4 +71,45 @@
   line-height: 43px;
   margin: 0;
   white-space: pre-wrap;
+}
+
+@media screen and (max-width: 1095px) {
+  
+  .interior-photogallery__card:first-child::before {
+    display: none;
+  }
+  
+  .interior-photogallery__discription-text {
+    white-space: normal;
+  }
+}
+
+@media screen and (max-width: 935px) {
+
+  .interior-photogallery__card-list {
+    max-width: 80%;
+    margin: 0 auto;
+  }
+  
+  .interior-photogallery__card {
+    flex-wrap: wrap;
+  }
+  
+  .interior-photogallery__card:nth-of-type(even) img {
+    order: initial;
+  }
+
+  /* стрелка и желтый градиент после первой карточки */
+.interior-photogallery__card:first-child::after {
+    inset: 105% 30% -330px 30%;
+}
+  
+  .interior-photogallery__card:nth-of-type(even) .interior-photogallery__discription {
+    text-align: left;
+  }
+  
+  .interior-photogallery__photo {
+    width: 100%;
+    min-width: auto;
+  }
 }

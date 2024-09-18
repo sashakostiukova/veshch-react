@@ -14,13 +14,13 @@
   flex-direction: column;
   align-items: center;
   width: 100%;
-  background: url(../../images/background-images/about-accessories-bg.png) no-repeat top 55px center / 1485px auto
+  background: url(../../images/background-images/accessories/about-accessories-bg.png) no-repeat top 55px center / 1485px auto
 }
 
 .about-accessories__bg-container {
   max-width: 588px;
   padding: 737px 0 327px;
-  background: url(../../images/background-images/accessories-description-bg.png) no-repeat top center / 588px auto;
+  background: url(../../images/background-images/accessories/accessories-description-bg.png) no-repeat top center / 588px auto;
   position: relative;
 }
 
@@ -58,7 +58,7 @@
 .about-accessories__text-wrapper::after {
   content: '';
   position: absolute;
-  background: transparent url(../../images/background-images/dashed-arrow.png) no-repeat bottom center / 16px auto;
+  background: transparent url(../../images/background-images/accessories/dashed-arrow.png) no-repeat bottom center / 16px auto;
   top: 118%;
   left: -1px;
   right: 0;

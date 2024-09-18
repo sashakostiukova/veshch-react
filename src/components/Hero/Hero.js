@@ -7,8 +7,8 @@ export default function Hero() {
   return (
     <section className="hero"  id="hero">
         <picture className="hero__picture">
-          <source srcset={aromaLampMobile} media="(max-width: 509px)" />
-          <img className="hero__image" src={aromaLamp} alt="" />
+          <source srcSet={aromaLampMobile} media="(max-width: 509px)" />
+          <img className="hero__image" src={aromaLamp} alt="керамическая аромалампа в виде арки из шамотированной массы" />
         </picture>
     </section>
   )

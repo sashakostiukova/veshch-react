@@ -1,7 +1,6 @@
 .interior-bg-wrapper {
   width: 100%;
-  /* background: url(../../images/background-images/interior-bg.png) no-repeat bottom 75px center / 1400px; */
-  background: url(../../images/background-images/background-elements.png) no-repeat bottom 75px center / 1400px;
+  background: url(../../images/background-images/interior/interior-bg.png) no-repeat bottom 75px center / 1400px;
 }
 
 .interior-content {
@@ -11,4 +10,10 @@
   gap: 200px;
   padding-bottom: 125px;
   width: 100%;
+}
+
+@media screen and (max-width: 935px) {
+  .interior-bg-wrapper {
+    background: url(../../images/background-images/interior/interior-lines-bg.png) no-repeat bottom 40px left 30px / 640px;
+  }
 }

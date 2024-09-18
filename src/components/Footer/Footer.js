@@ -38,17 +38,17 @@ export default function Footer() {
 
       {location.pathname === "/" &&
         <HashLink className="up-button" smooth to="/#hero">
-          <img className="up-button__arrow" src={arrowUp} alt="" />
+          <img className="up-button__arrow" src={arrowUp} alt="стрелка наверх" />
         </HashLink>
       }
       {location.pathname === "/interior" &&
         <HashLink className="up-button" smooth to="/interior#about-interior">
-          <img className="up-button__arrow" src={arrowUp} alt="" />
+          <img className="up-button__arrow" src={arrowUp} alt="стрелка наверх" />
         </HashLink>
       }
       {location.pathname === "/accessories" &&
         <HashLink className="up-button" smooth to="/accessories#about-accessories">
-          <img className="up-button__arrow" src={arrowUp} alt="" />
+          <img className="up-button__arrow" src={arrowUp} alt="стрелка наверх" />
         </HashLink>
       }
     </footer>

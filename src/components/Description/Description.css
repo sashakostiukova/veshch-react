@@ -7,14 +7,6 @@
   font-family: Sansation-Light, sans-serif;
 }
 
-
-/* .description::after {
-  position: absolute;
-  content: "";
-  background: url(../../images/background-images/description-bg.png) no-repeat top center / 1835px auto;
-  inset: -89px -111px -85px -267px;
-} */
-
 .description__text-wrapper {
   width: 283px;
   text-align: center;

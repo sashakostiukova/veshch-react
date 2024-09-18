@@ -7,7 +7,7 @@ export default function AboutAccessories() {
   return (
     <section className="about-accessories" id="about-accessories">
       <div className="about-accessories__bg-container">
-        <ScrollAnimation className="about-accessories__animation-container" animateIn="fadeInUp" duration="2" animateOnce="true" >
+        <ScrollAnimation className="about-accessories__animation-container" animateIn="fadeInUp" duration={2} animateOnce={true} >
           <div className="about-accessories__text-wrapper">
             <p className="about-accessories__text">
               Керамические украшения “вещь” дополнят яркий наряд нежностью 

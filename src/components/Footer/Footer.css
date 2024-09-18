@@ -39,6 +39,7 @@
   z-index: 0;
 }
 
+/* эллипсы на фоне заголовка */
 .footer__heading::before {
   content: "";
   position: absolute;
@@ -115,6 +116,9 @@
   z-index: -1;
   transition: transform 1s ease;
   transform: scale(0.7);
+
+  /* background: radial-gradient(40px 70px, rgba(253 229 152 / 1), rgba(253 229 152 / 0)) center;
+  inset: -65px -30px -65px -30px; */
 }
 
 .up-button:hover::after{
@@ -131,10 +135,6 @@
 }
 
 @media screen and (max-width: 1130px) {
-  
-  .footer__heding-wrapper {
-    background-size: 90%;
-  }
   
   .footer__heading::before {
     display: none;

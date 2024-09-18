@@ -1,5 +1,5 @@
 import React from 'react';
-import { Route, Routes, useNavigate, Navigate } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import Main from '../Main/Main';
 import Interior from '../Interior/Interior';
