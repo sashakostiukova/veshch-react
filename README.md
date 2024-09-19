@@ -33,9 +33,8 @@ __Сайт имеет три раздела:__
 
 Благодаря использованию технологий Grid Layout, flexbox, а также применению медиазапросов, сайт корректно подстраивается под различные разрешения экрана:
 
-<img src="./src/images/images-for-README/interior-adaptive.png" alt="Скриншот фрагмента сайта на широком экране" width="560"> <img src="./src/images/images-for-README/accessories-adaptive.png" alt="Скриншот фрагмента сайта с открытым бургер-меню на маленьком экране" width="307">
-<img src="./src/images/images-for-README/interior-adaptive-tablet.png" alt="Скриншот фрагмента сайта на маленьком экране" width="560">
-
+<img src="./src/images/images-for-README/interior-adaptive.png" alt="Скриншот фрагмента сайта на широком экране" width="60%"> <img src="./src/images/images-for-README/accessories-adaptive.png" alt="Скриншот фрагмента сайта с открытым бургер-меню на маленьком экране" width="33%">
+<img src="./src/images/images-for-README/interior-adaptive-tablet.png" alt="Скриншот фрагмента сайта на маленьком экране" width="60%">
 
 ## Планы по модернизации
 В будущем планируется доработка мобильной версии сайта
