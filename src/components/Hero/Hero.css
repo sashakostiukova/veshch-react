@@ -2,7 +2,9 @@
   padding-bottom: 44px;
 }
 
+/* градиент на фоне */
 .hero__picture {
+  position: relative;
   display: flex;
   align-items: center;
   width: 100%;
@@ -11,19 +13,15 @@
   background: url(../../images/background-images/banner-bg-gradient.png) no-repeat 25% 5% / 495px auto;
 }
 
+/* эллипсы на фоне */
 .hero__picture::before {
   content: "";
   position: absolute;
   background: url(../../images/background-images/hero-bg-elipse.png) no-repeat top 169px center / 507px 507px;
-  top: 0;
-  left: 240px;
-  right: 0;
-  bottom: 0;
+  inset: 0 0 0 240px;
 }
 
 .hero__image {
-  position: relative;
-  z-index: 0;
   margin: 0 auto;
   width: 443px;
   max-width: 100%;

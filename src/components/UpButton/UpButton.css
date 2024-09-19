@@ -1,0 +1,36 @@
+.up-button__animation-container {
+  position: absolute;
+  width: 17px;
+  height: 54px;
+  bottom: 50px;
+  right: 40px;
+  z-index: 1;
+}
+
+.up-button {
+  display: block;
+}
+
+/* подложка под стрелку */
+.up-button::after {
+  position: absolute;
+  content: "";
+  z-index: -1;
+  transition: transform 1s ease;
+  transform: scale(0.7);
+  background: radial-gradient(40px 70px at center, rgba(147, 63, 250, 0.4), rgba(147, 63, 250, 0));
+  inset: -50px -30px -50px -30px;
+}
+
+.up-button:hover::after{
+  transform: scale(1);
+}
+
+.up-button__arrow {
+  transition: opacity 1s ease;
+  opacity: 0.6;
+}
+
+.up-button__arrow:hover {
+  opacity: 1;
+}

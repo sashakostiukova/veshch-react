@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 import headerLogo from '../../images/logo.svg';
 import menuButton from '../../images/menu-button.svg';
 import NavigationMenu from '../NavigationMenu/NavigationMenu';
@@ -14,13 +14,14 @@ export default function Header({ isMenuOpen, toggleMenu }) {
   return (
     <>
     <header className="header">
-      <Link to="/" className="header__link">
+      <HashLink to="/#hero" className="header__link">
         <img className="header__logo link-transition" src={headerLogo} alt="логотип сайта"/>
-      </Link>
+      </HashLink>
       <button className="header__menu-button" onClick={onClick}>
         <img className="header__button-image link-transition" src={menuButton} alt="иконка кнопки вызова меню"/>
       </button>
     </header>
+    
     <NavigationMenu isOpen={isMenuOpen} closeMenu={toggleMenu} />
     </>
   )

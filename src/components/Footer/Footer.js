@@ -1,12 +1,8 @@
 import React from 'react';
 import { useLocation } from 'react-router';
-import { HashLink } from 'react-router-hash-link';
-import "animate.css/animate.compat.css";
-import ScrollAnimation from 'react-animate-on-scroll';
-import './Footer.css';
 import instagramIcon from '../../images/instagram-icon.svg';
 import telegramIcon from '../../images/telegram-icon.svg';
-import arrowUp from '../../images/arrow-up-button.svg';
+import './Footer.css';
 
 export default function Footer() {
 
@@ -14,11 +10,13 @@ export default function Footer() {
 
   return (
     <footer className="footer">
+      
       {location.pathname === "/" &&
         <div className="footer__heding-wrapper">
           <h2 className="footer__heading">контакты</h2>
         </div>
       }
+
       <nav className="footer__links">
         <ul className="footer__links-list" id="contacts">
           <li className="footer__list-item">
@@ -36,21 +34,6 @@ export default function Footer() {
         </ul>
       </nav>
 
-      {location.pathname === "/" &&
-        <HashLink className="up-button" smooth to="/#hero">
-          <img className="up-button__arrow" src={arrowUp} alt="стрелка наверх" />
-        </HashLink>
-      }
-      {location.pathname === "/interior" &&
-        <HashLink className="up-button" smooth to="/interior#about-interior">
-          <img className="up-button__arrow" src={arrowUp} alt="стрелка наверх" />
-        </HashLink>
-      }
-      {location.pathname === "/accessories" &&
-        <HashLink className="up-button" smooth to="/accessories#about-accessories">
-          <img className="up-button__arrow" src={arrowUp} alt="стрелка наверх" />
-        </HashLink>
-      }
     </footer>
   )
 }

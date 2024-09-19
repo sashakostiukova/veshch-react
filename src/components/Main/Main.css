@@ -1,7 +1,8 @@
 .main-bg-wrapper {
   width: 100%;
-  background: url(../../images/background-images/main-bg-top.png) no-repeat top 610px center / 1475px auto,
-  url(../../images/background-images/main-bg-bottom.png) no-repeat bottom 94px center / 90%;
+  background:
+    url(../../images/background-images/main-bg-top.png) no-repeat top 610px center / 1475px auto,
+    url(../../images/background-images/main-bg-bottom.png) no-repeat bottom 94px center / 90%;
 }
 
 .main-content {
@@ -11,6 +12,6 @@
 @media screen and (max-width: 1430px) {
 
   .main-bg-wrapper {
-    background: url(../../images/background-images/main-bg-top.png) no-repeat top 610px center / 1501px auto
+    background: url(../../images/background-images/main-bg-top.png) no-repeat top 610px center / 1475px auto
   }
 }

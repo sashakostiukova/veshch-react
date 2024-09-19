@@ -8,7 +8,9 @@ import './Interior.css';
 export default function Interior({ isNavigationMenuOpen, toggleNavigationMenu }) {
   return (
     <>
+
     <Header isMenuOpen={isNavigationMenuOpen} toggleMenu={toggleNavigationMenu}/>
+
     <div className="interior-bg-wrapper">
       <div className="interior-content">
         <AboutInterior />
@@ -16,6 +18,7 @@ export default function Interior({ isNavigationMenuOpen, toggleNavigationMenu })
       </div>
       <Footer />
     </div>
+
     </>
   )
 }

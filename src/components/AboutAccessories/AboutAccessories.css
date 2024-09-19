@@ -1,14 +1,3 @@
-/* @keyframes fadeIn {
-  0% {
-    opacity: 0;
-    transform: translateY(100px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-} */
-
 .about-accessories {
   display: flex;
   flex-direction: column;
@@ -46,12 +35,6 @@
   align-items: center;
   gap: 98px;
   max-width: 588px;
-  /* opacity: 0; 
-  animation: fadeIn ease-in 1;
-  animation-fill-mode: forwards;
-  animation-duration: 2s;
-
-  animation: fadeIn ease-in 1 2s forwards; */
 }
 
 /* пунктирная стрелка */
@@ -59,10 +42,7 @@
   content: '';
   position: absolute;
   background: transparent url(../../images/background-images/accessories/dashed-arrow.png) no-repeat bottom center / 16px auto;
-  top: 118%;
-  left: -1px;
-  right: 0;
-  bottom: -75%;
+  inset: 118% 0 -75% 0;
 }
 
 .about-accessories__text {

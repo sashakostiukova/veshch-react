@@ -4,7 +4,7 @@
   top: 88px;
   left: 0;
   right: 0;
-  padding: 32px 0;
+  padding: 32px 30px;
   background-color: #F5F3F8;
   transform: translateY(-210%);
   opacity: 0;
@@ -34,22 +34,16 @@
 }
 
 .navigation-menu__list-item:hover {
-  /* transform: scale(1.1); */
   transform: translateY(-5px);
 }
 
 .navigation-menu__link {
   text-decoration: none;
   color: #545F71;
-}
-
-.navigation-menu__link_active {
-  /* text-decoration: underline; */
   position: relative;
-  /* color: #4783E4;;; */
 }
 
-/* линия под ссылкой */
+/* точка под активной ссылкой */
 .navigation-menu__link_active::after {
   content: "";
   position: absolute;
@@ -59,4 +53,13 @@
   left: 50%;
   bottom: -12px;
   border-radius: 50%;
+}
+
+@media screen and (max-width: 630px) {
+  
+  .navigation-menu__links-list {
+    flex-direction: column;
+    align-items: center;
+  }
+  
 }

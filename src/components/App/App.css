@@ -1,4 +1,9 @@
+#root {
+  position: relative;
+}
+
 .page {
+  position: relative;
   background: #FFFFFF;
   color: #545F71;
   max-width: 1440px;

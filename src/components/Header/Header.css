@@ -17,7 +17,7 @@
 .header__link::after {
   position: absolute;
   content: "";
-  background: radial-gradient(50% 40%, rgba(255 255 255 / 1) 0% 35%, rgba(255 255 255 / 0)) center;
+  background: radial-gradient(50% 40% at center, rgba(255 255 255 / 1) 0% 35%, rgba(255 255 255 / 0));
   inset: -25px -29px -25px -29px;
   z-index: -1;
   transition: transform 0.7s ease;
@@ -46,11 +46,11 @@
   cursor: pointer;
 }
 
-/* подложка под кнопку меню */
+/* подложка под кнопку вызова меню */
 .header__menu-button::after {
   position: absolute;
   content: "";
-  background: radial-gradient(40% 40%, rgba(255 255 255 / 1) 0% 35%, rgba(255 255 255 / 0)) center;
+  background: radial-gradient(40% 40% at center, rgba(255 255 255 / 1) 0% 35%, rgba(255 255 255 / 0));
   inset: -25px -25px -25px -25px;
   z-index: -1;
   transition: transform 0.7s ease;

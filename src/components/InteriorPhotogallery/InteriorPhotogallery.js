@@ -10,12 +10,13 @@ export default function InteriorPhotogallery() {
       <ul className="interior-photogallery__card-list">
 
         <li className="interior-photogallery__card">
-          <img className="interior-photogallery__photo" src={interiorAromalamp} 
-            alt="Фотография керамической аромалампы. В ней горит свеча. Рядом на столе стоит флакон с аромамаслом и разбросаны спички"
+          <img className="interior-photogallery__photo" src={interiorAromalamp}
+            alt="Фотография керамической аромалампы. В ней горит свеча.
+              Рядом на столе стоит флакон с аромамаслом и разбросаны спички"
           />
           <div className="interior-photogallery__discription">
             <h3 className="interior-photogallery__discription-title">
-            Аромалампа “аркада”.
+              Аромалампа “аркада”.
             </h3>
             <p className="interior-photogallery__discription-text">
               Аромалампа для чайной свечи. Также можно использовать 
@@ -25,8 +26,9 @@ export default function InteriorPhotogallery() {
         </li>
 
         <li className="interior-photogallery__card">
-          <img className="interior-photogallery__photo" src={holder} 
-            alt="Фотография керамического холдера из четырех сквозных цилиндров, соединенных вместе. В одной из секций холдера лежат спички, в другой - кольца"
+          <img className="interior-photogallery__photo" src={holder}
+            alt="Фотография керамического холдера из четырех сквозных цилиндров, соединенных вместе.
+              В одной из секций холдера лежат спички, в другой - кольца"
           />
           <div className="interior-photogallery__discription">
             <h3 className="interior-photogallery__discription-title">
@@ -40,8 +42,9 @@ export default function InteriorPhotogallery() {
         </li>
 
         <li className="interior-photogallery__card">
-          <img className="interior-photogallery__photo" src={candelholder} 
-            alt="Фотография керамического подсвечника из трех арок, соединенных вместе. В подсвечник вставлены и горят две тонких свечи"
+          <img className="interior-photogallery__photo" src={candelholder}
+            alt="Фотография керамического подсвечника из трех арок, соединенных вместе.
+              В подсвечник вставлены и горят две тонких свечи"
           />
           <div className="interior-photogallery__discription">
             <h3 className="interior-photogallery__discription-title">

@@ -20,7 +20,6 @@ export default function Main({ isNavigationMenuOpen, toggleNavigationMenu }) {
 
       <Footer />
     </div>
-    
     </>
   )
 }

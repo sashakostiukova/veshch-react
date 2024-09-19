@@ -1,9 +1,10 @@
 import React from 'react';
 import { Route, Routes } from 'react-router-dom';
-import './App.css';
 import Main from '../Main/Main';
 import Interior from '../Interior/Interior';
 import Accessories from '../Accessories/Accessories';
+import UpButton from '../UpButton/UpButton';
+import './App.css';
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
   };
 
   return (
+<>
     <div className="page">
       <Routes>
         <Route path="/" element={
@@ -27,10 +29,12 @@ function App() {
         <Route path="/accessories" element={
           <Accessories isNavigationMenuOpen={isNavigationMenuOpen} toggleNavigationMenu={handleNavigationMenuToggle}/>
         } />
-
       </Routes>
 
     </div>
+    
+    <UpButton />
+    </>
   );
 }
 

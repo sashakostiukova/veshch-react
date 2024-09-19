@@ -41,7 +41,7 @@
   content: "";
   background: 
     url(../../images/arrow.svg) no-repeat top center / 17px 96px,
-    radial-gradient(45% 40%, rgba(253 229 152 / 1), rgba(253 229 152 / 0)) center top 7px;
+    radial-gradient(45% 40% at center, rgba(253 229 152 / 1), rgba(253 229 152 / 0));
     inset: 112% 30% -330px 30%;
 }
 
@@ -100,9 +100,9 @@
   }
 
   /* стрелка и желтый градиент после первой карточки */
-.interior-photogallery__card:first-child::after {
-    inset: 105% 30% -330px 30%;
-}
+  .interior-photogallery__card:first-child::after {
+      inset: 105% 30% -330px 30%;
+  }
   
   .interior-photogallery__card:nth-of-type(even) .interior-photogallery__discription {
     text-align: left;

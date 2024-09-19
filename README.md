@@ -1,70 +1,54 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# __Проект: Вещь__
+<img src="./src/images/images-for-README/hero.png" alt="Скриншот шапки сайта">
 
-## Available Scripts
+## Обзор
 
-In the project directory, you can run:
+Проект сайта для бренда керамических изделий "Вещь".
 
-### `npm start`
+*Вещь - это авторская керамика для интерьера, для быта, для себя.*
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+__Сайт имеет три раздела:__
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+*главная страница
+*интерьерная керамика
+<img src="./src/images/images-for-README/interior.png" alt="Скриншот раздела с интерьерной керамикой">
+*аксессуары
+<img src="./src/images/images-for-README/accessories.png" alt="Скриншот раздела с аксессуарами">
 
-### `npm test`
+Навигация по сайту осуществляется с помощью соответствующего подраздела на главной странице:
+<img src="./src/images/images-for-README/large-navigation.png" alt="Скриншот раздела с навигационным меню на главной странице">
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Также на сервисе реализовано бургер-меню, закрепленное в верхней части окна просмотра:
+<img src="./src/images/images-for-README/burger-menu.png" alt="Скриншот с бургер-меню">
+Закрыть меню навигации можно по нажатию кнопки Esc или по клику за его пределами.
 
-### `npm run build`
+Для удобства пользователей внизу всех разделов есть кнопка "наверх":
+<img src="./src/images/images-for-README/up-button.png" alt="Скриншот с кнопкой, которая скроллит в начало страницы">
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Все интерактивные элементы анимированы.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Благодаря использованию технологий Grid Layout, flexbox, а также применению медиазапросов, сайт корректно подстраивается под различные разрешения экрана:
+<img src="./src/images/images-for-README/interior-adaptive.png" alt="Скриншот фрагмента сайта на широком экране">
+<img src="./src/images/images-for-README/interior-adaptive-tablet.png" alt="Скриншот фрагмента сайта на маленьком экране">
+<img src="./src/images/images-for-README/accessories-adaptive.png" alt="Скриншот фрагмента сайта с открытым бургер-меню на маленьком экране">
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Планы по модернизации
+В будущем планируется доработка мобильной версии сайта
 
-### `npm run eject`
+## Стек технологий
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+* HTML
+* CSS
+* JavaScript
+* React
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## __Владелец бренда и автор макета__
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<img src="./src/images/instagram-icon.svg" alt="иконка instagram"> https://www.instagram.com/veshch_shch
+<img src="./src/images/telegram-icon.svg" alt="иконка telegram"> https://t.me/julia_shchu
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## __Связаться со мной__
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<img src="./src/images/images-for-README/mail-icon.svg" alt="иконка почты">sashakostiukova@yandex.ru
+<img src="./src/images/telegram-icon.svg" alt="иконка telegram">https://t.me/a_kostiukova

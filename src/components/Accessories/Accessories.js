@@ -8,12 +8,16 @@ import './Accessories.css';
 export default function Accessories({ isNavigationMenuOpen, toggleNavigationMenu }) {
   return (
     <>
+
     <Header isMenuOpen={isNavigationMenuOpen} toggleMenu={toggleNavigationMenu}/>
+
     <div className="accessories">
       <AboutAccessories />
       <AccessoriesPhotogallery />
     </div>
+
     <Footer />
+
     </>
   )
 }
