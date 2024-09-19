@@ -10,10 +10,10 @@
 
 __Сайт имеет три раздела:__
 
-*главная страница
-*интерьерная керамика
+* главная страница
+* интерьерная керамика
 <img src="./src/images/images-for-README/interior.png" alt="Скриншот раздела с интерьерной керамикой">
-*аксессуары
+* аксессуары
 <img src="./src/images/images-for-README/accessories.png" alt="Скриншот раздела с аксессуарами">
 
 Навигация по сайту осуществляется с помощью соответствующего подраздела на главной странице:
@@ -45,10 +45,10 @@ __Сайт имеет три раздела:__
 
 ## __Владелец бренда и автор макета__
 
-<img src="./src/images/instagram-icon.svg" alt="иконка instagram"> https://www.instagram.com/veshch_shch
-<img src="./src/images/telegram-icon.svg" alt="иконка telegram"> https://t.me/julia_shchu
+<img src="./src/images/instagram-icon.svg" alt="иконка instagram" width="32" height="32"> https://www.instagram.com/veshch_shch \
+<img src="./src/images/telegram-icon.svg" alt="иконка telegram" width="32" height="32"> https://t.me/julia_shchu
 
 ## __Связаться со мной__
 
-<img src="./src/images/images-for-README/mail-icon.svg" alt="иконка почты">sashakostiukova@yandex.ru
-<img src="./src/images/telegram-icon.svg" alt="иконка telegram">https://t.me/a_kostiukova
+<img src="./src/images/images-for-README/mail-icon.svg" alt="иконка почты" width="32" height="32">sashakostiukova@yandex.ru \
+<img src="./src/images/telegram-icon.svg" alt="иконка telegram" width="32" height="32">https://t.me/a_kostiukova
