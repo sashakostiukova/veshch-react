@@ -41,7 +41,7 @@ __Сайт имеет три раздела:__
 
 ## Стек технологий
 
-![icons8-html5](https://github.com/sashakostiukova/sashakostiukova/assets/130703843/125e4393-5c64-4f35-9679-4c3db7e77202) ![icons8-css3](https://github.com/sashakostiukova/sashakostiukova/assets/130703843/96f541ca-2463-4f3f-958c-d49a79400108) ![icons8-js](https://github.com/sashakostiukova/sashakostiukova/assets/130703843/c4d74783-64e9-46eb-ab8e-75279e3b034b) ![icons8-react-native](https://github.com/sashakostiukova/sashakostiukova/assets/130703843/35959618-6195-4995-90bd-03930d028a1a)
+![html5](https://github.com/sashakostiukova/sashakostiukova/assets/130703843/125e4393-5c64-4f35-9679-4c3db7e77202) ![css3](https://github.com/sashakostiukova/sashakostiukova/assets/130703843/96f541ca-2463-4f3f-958c-d49a79400108) ![js](https://github.com/sashakostiukova/sashakostiukova/assets/130703843/c4d74783-64e9-46eb-ab8e-75279e3b034b) ![react](https://github.com/sashakostiukova/sashakostiukova/assets/130703843/35959618-6195-4995-90bd-03930d028a1a)
 
 * HTML
 * CSS
